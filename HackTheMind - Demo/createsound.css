@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+
+body
+{
+  background: var(--bggradient);
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #2bf2f2, #a7e1de);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+html,
+section #services {
+    text-align: center;
+    transform: translatez(0);
+}
+header .nav-item {
+padding: 0.9em;
+ }      
+header .nav-link:hover {
+color: black;
+}
+      
+header .row .col-sm-12 {
+padding: 22vmin 1vmin;
+padding-bottom: 45vmin;
+}
+      
+header .row .col-md-5 {
+padding: 4.2vmin 1vmin;
+}
+      
+header {
+background: #ff512f;
+background: var(--bggradient);
+}
+      
+header .container .col-sm-12 {
+font-family: "Rubik", sans-serif;
+}
+      
+header .container .col-sm-12 h6 {
+padding: 1vmin;
+letter-spacing: 4px;
+}
+header .container-fluid  {
+  padding: 1vmin;
+  letter-spacing: 4px;
+  }
+      
+header .container .col-sm-12 h1 {
+font-size: 8.5vmin;
+font-weight: bold;
+}
+      
+header .container .col-sm-12 p {
+padding: 1vmin 5vmin;
+}
+      
+.primary-btn {
+ border-radius: 30px;
+ font-weight: bold;
+}
+
+.container1
+{
+  width: 100%;
+  height: 800px;
+  background: var(--bggradient);
+}
+
+.search-box
+{
+  position: absolute;
+  top: 10%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  background: #2f3640;
+  height: 60px;
+  border-radius: 40px;
+  padding: 0px;
+}
+
+.search-box:hover > .search-txt
+{
+  width: 460px;
+  padding: 0 10px;
+}
+
+.search-box:hover > .search-btn
+{
+  background: orange;
+}
+
+.search-btn
+{
+  color: rgb(247, 247, 247);
+  float: right;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #e6a117;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.search-txt
+{
+  margin-top: 17.5px;
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 0px;
+}
+
+.container
+{
+  align-items: center;
+  justify-content: center;
+  background: var(--bggradient);
+  margin-top: 100px;
+}
+
+.container .music-container
+{
+  display: flex;
+  margin-right: 50%;
+  align-items: center;
+  flex-flow: column;
+}
+
+.container .music-container .box
+{ 
+  height: 5rem;
+  width: 80%;
+  display: flex;
+  background: #f9f9f9;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem #000;
+  overflow: hidden;
+  margin: 1rem;
+}
+.container .music-container .box .title
+{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 2.2 vmin;
+  width: 30%;
+}
+.container .music-container .box .music
+{
+  width: 75%;
+}
+
+.container .music-container .box .music audio
+{
+  margin-top: 20px;
+  float: right;
+  width: 70%;
+  outline: none;
+}
+
+.container .music-container .box .music audio::-webkit-media-controls-enclosure
+{
+  background: none;
+}
+
+@media  (max-width:600px){
+  .container .music-container .box{
+    height:27rem;
+    width:80%;
+    flex-flow: column;
+  }
+}
+
+footer 
+{
+  background: black;
+  padding: 14vmin 18vmin;
+}
+
+.list{
+  width:400px;
+  float: right;
+  height: 100%;
+  text-align: center;
+  border: 1px solid black;
+  overflow-y: scroll;  
+}
+
+.add_button
+{
+  width: 15%;
+  background: rgb(236, 160, 17);
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.title
+{
+  font-weight: bold;
+}
+
+.list
+{
+  font-size: 28px;
+  color: white;
+}
+
+.form_button
+{
+  width:100px;
+  height: 50px;
+  background-color: #fff;
+  margin-top: 40%;
+  text-align: center;
+  justify-content: center;
+}

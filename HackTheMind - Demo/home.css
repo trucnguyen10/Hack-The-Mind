@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #2bf2f2, #a7e1de);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+html,
+section #services {
+    text-align: center;
+    transform: translatez(0);
+}
+header .nav-item {
+padding: 0.9em;
+ }      
+header .nav-link:hover {
+color: black;
+}
+      
+header .row .col-sm-12 {
+padding: 22vmin 1vmin;
+padding-bottom: 45vmin;
+}
+      
+header .row .col-md-5 {
+padding: 4.2vmin 1vmin;
+}
+      
+header {
+background: #ff512f;
+background: var(--bggradient);
+}
+      
+header .container .col-sm-12 {
+font-family: "Rubik", sans-serif;
+}
+      
+header .container .col-sm-12 h6 {
+padding: 1vmin;
+letter-spacing:  4px;
+}
+header .container-fluid  {
+  padding: 1vmin;
+  letter-spacing: 4px;
+  }
+      
+header .container .col-sm-12 h1 {
+font-size: 8.5vmin;
+font-weight: bold;
+}
+      
+header .container .col-sm-12 p {
+padding: 1vmin 5vmin;
+}
+      
+.primary-btn {
+ border-radius: 30px;
+ font-weight: bold;
+}
+
+footer {
+    background: black;
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+
+
